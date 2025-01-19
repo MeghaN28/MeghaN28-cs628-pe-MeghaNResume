@@ -1,0 +1,27 @@
+.movie-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    background-color: #f9f9f9;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-card h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .movie-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
