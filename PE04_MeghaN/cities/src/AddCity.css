@@ -1,0 +1,32 @@
+.add-city-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-city-form input,
+  .add-city-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-city-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-city-form button:hover {
+    background-color: #0056b3;
+  }
+  
