@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  color: #2a6d6f; /* Dark teal/blue for headers */
+}
+
+/* Main Container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #006d77; /* Teal color for links */
+}
+
+a:hover {
+  color: #003d4d; /* Darker teal for hover */
+}
+
+/* Buttons */
+button {
+  background-color: #006d77; /* Teal background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004d56; /* Darker teal on hover */
+}
+
+/* Recipe List */
+.recipe-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipe-list li {
+  background-color: #f1f1f1; /* Light gray for recipe items */
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recipe-list li a {
+  font-size: 18px;
+  color: #006d77;
+}
+
+.recipe-list li a:hover {
+  color: #004d56;
+}
+
+/* Recipe Details */
+.recipe-details {
+  background-color: #e0f7fa; /* Light blue for details page */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.recipe-details p {
+  font-size: 18px;
+  color: #333;
+}
+
+.recipe-details button {
+  background-color: #009688; /* Teal for update button */
+}
+
+.recipe-details button:hover {
+  background-color: #00796b; /* Darker teal for update button */
+}
+
+/* Add Recipe Form */
+.add-recipe-form {
+  background-color: #f1f1f1; /* Light gray for the form */
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.add-recipe-form input, .add-recipe-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-recipe-form button {
+  background-color: #009688; /* Green for the form button */
+  color: white;
+  font-size: 16px;
+}
+
+.add-recipe-form button:hover {
+  background-color: #00796b; /* Darker green on hover */
+}
